@@ -5,11 +5,12 @@ int main() {
         float units_in_value;
 
         float faren, celcius, kelvin;
+	 printf("Please Enter Your Choice, \n C for Celsius Conversion \n F for farenheit conversion");
         
         scanf("%f",&units_in_value
 		);
-        scanf("%c",&units_in_type);
-
+        scanf(" %c",&units_in_type);
+       
 
         switch (units_in_type) {
     
